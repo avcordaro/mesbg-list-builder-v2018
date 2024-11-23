@@ -2,7 +2,7 @@
   "name": "Middle-Earth Strategy Battle Game - List Builder",
   "short_name": "MESBG List Builder",
   "description": "(Unofficial) A simple and intuitive tool for building your army lists in Middle-Earth Strategy Battle Game (MESBG).",
-  "start_url": "/mesbg-list-builder/",
+  "start_url": "/",
   "display": "fullscreen",
   "background_color": "#ffffff",
   "theme_color": "#000000",

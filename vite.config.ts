@@ -11,7 +11,7 @@ const currentDate = new Date()
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/mesbg-list-builder/",
+  base: "/",
   plugins: [react()],
   server: {
     port: 3000,
