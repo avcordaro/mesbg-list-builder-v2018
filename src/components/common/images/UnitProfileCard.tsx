@@ -9,7 +9,13 @@ export const UnitProfileCard: FunctionComponent<UnitProfileProps> = ({
 }) => {
   return (
     <ImageWithFallback
-      source={"./assets/images/profiles/" + army + "/cards/" + profile + ".jpg"}
+      source={
+        `${RESOURCES_URL}/images/profiles/` +
+        army +
+        "/cards/" +
+        profile +
+        ".jpg"
+      }
       fallbackImageSource={fallbackCard}
       className="profile_card"
       alt={`Profile card for ${profile}`}

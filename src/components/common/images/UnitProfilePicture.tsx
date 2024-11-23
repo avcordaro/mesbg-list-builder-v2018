@@ -19,7 +19,13 @@ export const UnitProfilePicture: FunctionComponent<UnitProfileProps> = ({
   return (
     <Avatar
       alt={`Profile picture for ${profile}`}
-      src={"./assets/images/profiles/" + army + "/pictures/" + profile + ".png"}
+      src={
+        `${RESOURCES_URL}/images/profiles/` +
+        army +
+        "/pictures/" +
+        profile +
+        ".png"
+      }
       sx={{
         width: sizeUnits,
         height: sizeUnits,

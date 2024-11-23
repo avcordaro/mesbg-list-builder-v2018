@@ -11,7 +11,7 @@ export const FactionLogo: FunctionComponent<FactionLogoProps> = ({
 }) => (
   <Avatar
     alt={`${faction} logo`}
-    src={"./assets/images/faction_logos/" + faction + ".png"}
+    src={`${RESOURCES_URL}/images/faction_logos/` + faction + ".png"}
     sx={{
       width: 24,
       height: 24,
