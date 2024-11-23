@@ -19,6 +19,9 @@ export default defineConfig({
   define: {
     BUILD_VERSION: JSON.stringify(process.env.npm_package_version),
     BUILD_DATE: JSON.stringify(currentDate),
+    RESOURCES_URL: JSON.stringify(
+      "https://resources.mesbg-list-builder.com/v2018",
+    ),
   },
   build: {
     outDir: "./build",
