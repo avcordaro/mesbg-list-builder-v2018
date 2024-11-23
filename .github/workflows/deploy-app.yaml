@@ -1,4 +1,4 @@
-name: Deploy static resource files
+name: Deploy App
 
 on:
   workflow_dispatch: # Enables manual trigger
@@ -10,6 +10,15 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "22"
+
+      - name: Install & build
+        run: |
+          npm install
+          npm run build
 
       - name: Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
@@ -18,5 +27,6 @@ jobs:
           protocol: ftps
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: static-resources/
-          server-dir: /public_html/resources/v2018/
+          local-dir: build/
+          server-dir: /public_html/v2018/
+          delete-remote: true
