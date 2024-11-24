@@ -21,7 +21,7 @@ import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { Fragment, useState } from "react";
 import logo from "../../../assets/images/logo.svg";
-import title from "../../../assets/images/title.png";
+import title from "../../../assets/images/title-v2018.png";
 import { useAppState } from "../../../state/app";
 import { useGameModeState } from "../../../state/gamemode";
 import { useUserPreferences } from "../../../state/preference";
@@ -255,7 +255,7 @@ export const Header = () => {
             <img
               src={title}
               alt="MESBG List Builder"
-              style={{ maxHeight: "20px", margin: "0 .25rem" }}
+              style={{ maxHeight: "42px", margin: "0 .25rem" }}
             />
           </Button>
 
