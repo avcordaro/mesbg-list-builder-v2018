@@ -53,7 +53,11 @@ const HeroName: FunctionComponent<HeroNameProps> = ({ hero, alive, index }) => {
       alignItems="center"
     >
       {alive ? (
-        <Typography variant="h6" flexGrow={1}>
+        <Typography
+          variant="h6"
+          flexGrow={1}
+          sx={{ textAlign: isMobile ? "center" : "left" }}
+        >
           <b>{hero.name}</b> {!!index && <>( {index} )</>}
           {hero.leader && (
             <Typography component="span" color="success" sx={{ mx: 1 }}>
@@ -62,7 +66,12 @@ const HeroName: FunctionComponent<HeroNameProps> = ({ hero, alive, index }) => {
           )}
         </Typography>
       ) : (
-        <Typography variant="h6" color="textDisabled" flexGrow={1}>
+        <Typography
+          variant="h6"
+          color="textDisabled"
+          flexGrow={1}
+          sx={{ textAlign: isMobile ? "center" : "left" }}
+        >
           <s>
             <b>{hero.name}</b> {!!index && <>( {index} )</>}
           </s>
