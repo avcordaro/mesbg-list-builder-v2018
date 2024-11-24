@@ -85,7 +85,7 @@ export function RosterTextView({
 
   const admission = () => {
     return `---------------------------------------- 
-    Created with MESBG List Builder (https://avcordaro.github.io/mesbg-list-builder)`;
+    Created with MESBG List Builder (https://v2018.mesbg-list-builder.com/)`;
   };
 
   const createTextView = () => {

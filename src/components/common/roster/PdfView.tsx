@@ -24,8 +24,8 @@ export const PdfView = () => {
           <Typography>
             Some of the units selected in your roster have no registered profile
             data. If you see this message, please let us know via{" "}
-            <a href="mailto:avcordaro@gmail.com?subject=MESBG List Builder - Bug/Correction">
-              avcordaro@gmail.com
+            <a href="mailto:support@mesbg-list-builder.com?subject=MESBG List Builder (v2018) - Bug/Correction">
+              support@mesbg-list-builder.com
             </a>
             .
           </Typography>

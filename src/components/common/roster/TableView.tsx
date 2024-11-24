@@ -263,7 +263,7 @@ export function RosterTableView({
         variant="caption"
       >
         Created with MESBG List Builder (
-        <a href="#">https://avcordaro.github.io/mesbg-list-builder</a>)
+        <a href="#">https://v2018.mesbg-list-builder.com/</a>)
       </Typography>
     </>
   );
