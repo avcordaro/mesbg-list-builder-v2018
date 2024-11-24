@@ -10,7 +10,7 @@ export function ChartsModal() {
     <DialogContent>
       <center>
         <img
-          src={"./assets/images/charts/" + selectedChart + ".png"}
+          src={`${RESOURCES_URL}/images/charts/` + selectedChart + ".png"}
           alt={selectedChart}
           style={{
             maxWidth: "100%",
