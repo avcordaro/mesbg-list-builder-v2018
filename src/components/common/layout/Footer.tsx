@@ -38,7 +38,10 @@ export const Footer = () => {
       </Typography>
       <Typography variant="caption">
         For any bugs and corrections, please contact:{" "}
-        <a href="mailto:support@mesbg-list-builder.com?subject=MESBG List Builder (v2018) - Bug/Correction">
+        <a
+          style={{ display: "inline-block" }}
+          href="mailto:support@mesbg-list-builder.com?subject=MESBG List Builder (v2018) - Bug/Correction"
+        >
           support@mesbg-list-builder.com
         </a>
       </Typography>
