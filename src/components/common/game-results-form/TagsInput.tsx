@@ -50,7 +50,7 @@ export const AdditionalTagsInput: FunctionComponent<
       )}
       <TextField
         variant="outlined"
-        placeholder="Comma sperated tags"
+        placeholder="Comma separated tags"
         value={input}
         onChange={(e) => setInput(e.target.value)}
         onInput={handleOnInput}
