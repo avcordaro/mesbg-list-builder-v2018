@@ -9,7 +9,8 @@
       "Added missing Expert Shot special rule to Drar in the Murin & Drar profile.",
       "Fix issue not being able to select The White Warg on Azog from the Azog's Hunters army list.",
       "Fixed typo in the special rules from Cirdan",
-      "Fixed issue with Bill Ferny's profile card not appearing."
+      "Fixed issue with Bill Ferny's profile card not appearing.",
+      "Fixed issue where Warg Riders did not have their warg mount stats appearing in PDF."
     ]
   },
   "6.17": {
