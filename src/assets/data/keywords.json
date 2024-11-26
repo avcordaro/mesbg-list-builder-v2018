@@ -204,6 +204,12 @@
     "description":"A model who is upgraded to wear heavy armour or Dwarf armour adds 2 to their Defence, unless they are already wearing armour, in which case they add 1."
   },
   {
+    "name":"Elfbane",
+    "type":"special_rule",
+    "active_passive":"Active",
+    "description":"Bane weapons cause D3 Wounds rather than 1, per successful Strike, on specific races \u2013 the race in question will be presented as Xbane, where X is the race in question. For example, a model with the Orcbane special rule will cause D3 Wounds per successful Strike against models with the Orc keyword."
+  },
+  {
     "name":"Elven Cloak",
     "type":"special_rule",
     "active_passive":null,
@@ -486,6 +492,12 @@
     "description":"<b>Duration<\/b>: Instant\n\nThis power targets one enemy model within range. The target is immediately paralysed. It is knocked Prone and may do nothing until it recovers, including using Active special rules (see page 103). The target may make no Duel rolls and will automatically lose any Duels it takes part in unless joined by a friendly model. During the End phase, the controlling player must roll a D6 for each of their Paralysed models. On a 6, the model recovers and stands up. Friendly models who spend the Fight phase in contact with a Paralysed model, and do nothing else, may also attempt to revive the victim. Roll an additional D6 for the Paralysed model for each such friend. Might points can be used to modify this roll.\n\n<b>Channelled<\/b>: At the end of each turn that the target remains Paralysed, they suffer one Strength 5 hit."
   },
   {
+    "name":"Phalanx",
+    "type":"special_rule",
+    "active_passive":"Active",
+    "description":"Easterlings can use pike and shield without penalty. If an Easterling model loses a duel roll on foot, up to two other models that also have the Phalanx rule can Make Way, instead of one."
+  },
+  {
     "name":"Piercing Strike",
     "type":"special_rule",
     "active_passive":null,
@@ -688,6 +700,12 @@
     "type":"special_rule",
     "active_passive":"Passive",
     "description":"Should a model wish to Charge this model, it must first take a Courage test before it moves. If the test is passed, the model may Charge as normal. If the test is failed, the model does not Charge and may not move at all this turn. Sometimes, a model will only cause Terror in certain enemies. In these instances, the creatures that are affected are clearly listed, and only those models need to make a Courage test before charging this model. For example, a model with the Terror (Orc) will cause Terror in all Orc models."
+  },
+  {
+    "name":"The Gleaming Horde",
+    "type":"special_rule",
+    "active_passive":"Active",
+    "description":"While mounted, gain the Shieldwall rule. The +1 Defence applies to both rider and mount. Hero models don't need a shield."
   },
   {
     "name":"Throw Stones",
