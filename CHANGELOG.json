@@ -13,7 +13,8 @@
       "Fixed issue with Bill Ferny's profile card not appearing.",
       "Fixed issue where Warg Riders did not have their warg mount stats appearing in PDF.",
       "Fixed various special rule issues with the PDF generation.",
-      "Fixed profile card stats for Brorgir the Conjurer."
+      "Fixed profile card stats for Brorgir the Conjurer.",
+      "Fixed the profile card download that was providing JPGs that couldn't be opened."
     ]
   },
   "6.17": {

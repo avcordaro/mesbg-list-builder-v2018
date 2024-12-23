@@ -47,7 +47,7 @@ export const useDownload = () => {
     const zip = new JSZip();
     for (const card of finalProfileCards) {
       const blob = await fetch(
-        "assets/images/profiles/" +
+        `${RESOURCES_URL}/images/profiles/` +
           card.split("|")[0] +
           /cards/ +
           card.split("|")[1] +

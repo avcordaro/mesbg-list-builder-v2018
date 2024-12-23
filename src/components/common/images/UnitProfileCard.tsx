@@ -14,7 +14,7 @@ export const UnitProfileCard: FunctionComponent<UnitProfileProps> = ({
         army +
         "/cards/" +
         profile +
-        ".jpg"
+        `.jpg?version=${BUILD_VERSION}`
       }
       fallbackImageSource={fallbackCard}
       className="profile_card"
