@@ -15,7 +15,7 @@
       "Fixed various special rule issues with the PDF generation.",
       "Fixed profile card stats for Brorgir the Conjurer.",
       "Fixed the profile card download that was providing JPGs that couldn't be opened.",
-      "Corrected special rules on Fiefdom heroes that required an asterisk * for army bonus purposes."
+      "Corrected special rules on Fiefdom heroes that required an asterisk * for army bonus purposes, and Imrahil's rule typo."
     ]
   },
   "6.17": {
