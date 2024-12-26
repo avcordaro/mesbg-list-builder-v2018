@@ -24,7 +24,7 @@ export const UnitProfilePicture: FunctionComponent<UnitProfileProps> = ({
         army +
         "/pictures/" +
         profile +
-        ".png"
+        `.png?version=${BUILD_VERSION}`
       }
       sx={{
         width: sizeUnits,
