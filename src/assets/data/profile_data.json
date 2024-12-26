@@ -11980,7 +11980,7 @@
           "description": "Two handed sword, and if they roll a natural 6 in the Duel roll, this model does not suffer the usual -1 penalty."
         },
         {
-          "name": "Chief of Lamedon",
+          "name": "*Chief of Lamedon",
           "type": "Passive",
           "description": "Clansmen of Lamedon within 6\" of Angbor gain the Fearless special rule."
         }
@@ -12116,7 +12116,7 @@
           "description": "Duinhir can re-roll failed To Wound rolls when shooting. Also, wounds against Monsters whilst shooting cause D3 wounds rather than one."
         },
         {
-          "name": "Lord of the Blackroot Vale",
+          "name": "*Lord of the Blackroot Vale",
           "type": "Passive",
           "description": "Blackroot Vale Archers within 6\" of Duinhir may re-roll To Hit rolls of 1, as long as they didn't move during the Move phase."
         }
@@ -12146,7 +12146,7 @@
       "C": "4",
       "active_or_passive_rules": [
         {
-          "name": "The Lord of Lossarnach",
+          "name": "*The Lord of Lossarnach",
           "type": "Passive",
           "description": "Axemen of Lossarnach within 6\" must re-roll results of a 1 when rolling To Wound during the Fight phase."
         }
@@ -12226,7 +12226,7 @@
           "description": "Imrahil's Stand Fast! Is 12\" rather than 6\"."
         },
         {
-          "name": "Dol Amroth for Gondor!",
+          "name": "*Dol Amroth for Gondor!",
           "type": "Passive",
           "description": "Friendly Fiefdom models within 12\" of Imrahil count as being in range of a banner."
         }

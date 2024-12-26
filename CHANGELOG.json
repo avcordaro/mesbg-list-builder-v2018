@@ -14,7 +14,8 @@
       "Fixed issue where Warg Riders did not have their warg mount stats appearing in PDF.",
       "Fixed various special rule issues with the PDF generation.",
       "Fixed profile card stats for Brorgir the Conjurer.",
-      "Fixed the profile card download that was providing JPGs that couldn't be opened."
+      "Fixed the profile card download that was providing JPGs that couldn't be opened.",
+      "Corrected special rules on Fiefdom heroes that required an asterisk * for army bonus purposes."
     ]
   },
   "6.17": {
